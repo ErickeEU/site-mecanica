@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="sticky-top" id="cabecalho">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg align-items-center" id="barra-de-navegacao">
+                <h1 class="text-colored section-title">Oficina mecânica xyz</h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#nossa-especialidade">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#catalogo">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#contate-nos">Contate-nos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#barra-de-navegacao" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carrosel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="assets/images/lee-attwood-1eQBP3Iit48-unsplash.jpg" alt="">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img class="d-block w-100" src="assets/images/tory-bishop-QzH-UGjKN8g-unsplash.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="assets/images/kenny-eliason-ZSz1m4JPDqU-unsplash.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carrosel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carrosel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carrosel" data-bs-slide-to="0"></button>
+                    <button class="active" type="button" data-bs-target="#carrosel" data-bs-slide-to="1"></button>
+                    <button class="active" type="button" data-bs-target="#carrosel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100" src="assets/images/oli-woodman-oZOb6z2hWTU-unsplash.jpg" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="mt-4 mt-md-0 section-title">Nossa história</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque quae quia maiores, unde eveniet repudiandae suscipit, minus omnis quisquam quibusdam. Eligendi quis ipsum tenetur quaerat provident, porro nemo cumque.</p>
+                            <h3 class="section-title">Sobre o estabelecimento</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, qui minima ullam animi saepe voluptate, magni quod consequuntur sunt laboriosam quas quis officiis sit voluptates deleniti? Optio deleniti perferendis quae.</p>
+                            <ul>
+                                <li>
+                                    <p>item 1</p>
+                                </li>
+                                <li>
+                                    <p>item 2</p>
+                                </li>
+                                <li>
+                                    <p>item 3</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossa-especialidade" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">
+                        Nossas especialidades
+                    </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 mb-3" src="assets/images/christian-buehner-Fd6osyVbtG4-unsplash.jpg" alt="">
+                        <h3 class="fs-4 section-title">Serviço</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci inventore, placeat aperiam possimus dolor nemo ex quia magnam consequuntur iusto aspernatur laboriosam voluptatibus obcaecati dolorum esse rerum exercitationem? Consectetur.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 mb-3" src="assets/images/tekton-O_ufcLVTAYw-unsplash.jpg" alt="">
+                        <h3 class="fs-4 section-title"> De </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae fuga facilis dolor saepe laborum atque voluptate amet eveniet reiciendis ratione corrupti porro ducimus nostrum cumque, esse commodi officiis consequatur perferendis!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 mb-3" src="assets/images/tim-mossholder-V37iTrYZz2E-unsplash.jpg" alt="">
+                        <h3 class="fs-4 section-title"> Mecânico</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi corporis esse nesciunt, similique magni ullam quidem accusantium obcaecati sint voluptatum! Quam blanditiis quos soluta temporibus dignissimos molestiae dolor, aliquid officiis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mb-5 section-title">Nossos serviços</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#parteum" class=" active nav-link fw-bold">Alguma coisa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#partedois" class=" nav-link fw-bold">Alguma coisa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#partetres" class=" nav-link fw-bold">Alguma coisa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#partequatro" class=" nav-link fw-bold">Alguma coisa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#partecinco" class=" nav-link fw-bold">Alguma coisa</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="parteum">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço um</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo adipisci rerum numquam ipsa eaque dolorum, repellendus, molestiae quas odit amet alias perferendis soluta dolore quam nihil nemo eos voluptatum.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço dois</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço três</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço quatro</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço cinco</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="partedois">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço seis</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo adipisci rerum numquam ipsa eaque dolorum, repellendus, molestiae quas odit amet alias perferendis soluta dolore quam nihil nemo eos voluptatum.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço sete</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço oito</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço nove</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço dez</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="partetres">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço onze</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo adipisci rerum numquam ipsa eaque dolorum, repellendus, molestiae quas odit amet alias perferendis soluta dolore quam nihil nemo eos voluptatum.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço doze</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço treze</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço quatorze</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço quinze</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="partequatro">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço dezesseis</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo adipisci rerum numquam ipsa eaque dolorum, repellendus, molestiae quas odit amet alias perferendis soluta dolore quam nihil nemo eos voluptatum.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço dezessete</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço dezoito</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço dezenove</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço vinte</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="partecinco">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço vinte e um</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo adipisci rerum numquam ipsa eaque dolorum, repellendus, molestiae quas odit amet alias perferendis soluta dolore quam nihil nemo eos voluptatum.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço vinte e dois</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço vinte e três</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço vinte e quatro</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="assets/images/nina-mercado-Y_t0n-T4H5M-unsplash.jpg" alt="">
+                                        <h5>Serviço vinte e cinco</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi. Quaerat, rerum quae a consequatur voluptates odit perspiciatis totam necessitatibus quod aspernatur ex, nobis eligendi ut inventore! Impedit, temporibus tempore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contate-nos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mt-4 section-title">Contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form action="">
+                            <div class="mb-3">
+                                <label class="form-label" for="#nome">Seu nome</label>
+                                <input class="form-control" type="text" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="#email">Seu email</label>
+                                <input class="form-control" type="email" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="#telefone">Seu telefone</label>
+                                <input class="form-control" type="tel" id="telefone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="#nomedois">Seu nome de novo</label>
+                                <input class="form-control" type="text" id="nomedois" required>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h2 class="section-title">Redes sociais</h2>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h2 class="section-title">Endereço</h2>
+                            <p>Rua Teste, número 69, Algum lugar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

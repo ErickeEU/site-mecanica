@@ -1,0 +1,54 @@
+
+.social-links a {
+    text-decoration: none;
+} .social-links li {
+    list-style: none;
+    display: inline;
+}
+
+h1, h2, h3, h4, h5, p, li, label {
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #2b2c30;
+}
+
+.text-colored {
+    color: white;
+}
+
+#catalogo button.active,
+header .nav-pills .nav-link.active,
+.navbar-toggler {
+    background-color: #ff1457;
+    color: white;
+} #catalogo button,
+header .nav-link,
+.nav-link:hover {
+    color: #ff1457;
+}
+
+#sobre, #catalogo {
+    background-color: #453745;
+}
+
+#nossa-especialidade, #contate-nos {
+    background-color: #35313b;
+}
+#catalogo h5{
+    margin-top: 5%;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+#nossa-especialidade img {
+    height: 60%;
+}
+
+.section-title {
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
